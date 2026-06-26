@@ -1,0 +1,58 @@
+/* Workilo Design System — canonical tokens
+ * Use for Workilo-branded social visuals (image briefs, swatch reference, any
+ * HTML/SVG asset the skill generates for a Workilo product post).
+ * Copy authority is voice-guide.md (Clive personal voice) — these are VISUAL tokens only.
+ */
+
+:root {
+  /* Brand */
+  --wk-primary:        #10B981; /* Workilo Green — primary brand & action */
+  --wk-primary-hover:  #059669; /* hover / pressed */
+  --wk-secondary:      #6D28D9; /* purple — steps, sliders, accents */
+  --wk-accent:         #FF8A00; /* orange — energetic highlights / voxel blocks */
+  --wk-info:           #0EA5E9; /* info blue */
+
+  /* Ink & neutrals */
+  --wk-ink:            #0F172A; /* primary text */
+  --wk-muted:          #475569; /* secondary text */
+  --wk-border:         #E2E8F0; /* 1px borders */
+  --wk-surface:        #FFFFFF; /* cards / surfaces */
+  --wk-bg:             #F8FAFC; /* near-white page */
+
+  /* Type — system stack, no custom webfont */
+  --wk-font-sans: -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  --wk-font-mono: ui-monospace, SFMono-Regular, "SF Mono", Menlo, monospace;
+  --wk-weight-display:  300; /* light display at large sizes (signature) */
+  --wk-weight-heading:  400; /* section headings */
+  --wk-weight-title:    600; /* smaller titles */
+  --wk-weight-wordmark: 800; /* "Workilo" only */
+  --wk-body-line:       1.6;
+
+  /* Spacing — 4px base */
+  --wk-space-1: 4px;
+  --wk-space-2: 8px;
+  --wk-space-3: 12px;
+  --wk-space-4: 16px;
+  --wk-space-5: 24px;
+  --wk-space-6: 32px;
+  --wk-space-7: 48px;
+  --wk-space-8: 64px;
+  --wk-container-max: 1200px;
+  --wk-gutter: 32px;
+
+  /* Radius */
+  --wk-radius-btn:  0.375rem;
+  --wk-radius-card: 14px;
+  --wk-radius-pill: 9999px;
+
+  /* Elevation — soft, ink-tinted */
+  --wk-shadow-rest:  0 2px 4px rgba(15, 23, 42, 0.06);
+  --wk-shadow-raise: 0 10px 30px rgba(15, 23, 42, 0.10);
+  --wk-shadow-glow:  0 8px 25px rgba(16, 185, 129, 0.40); /* green action glow */
+
+  /* Motion */
+  --wk-ease:        cubic-bezier(0.4, 0, 0.2, 1);
+  --wk-ease-bouncy: cubic-bezier(0.34, 1.56, 0.64, 1);
+  --wk-dur-fast:    0.15s;
+  --wk-focus-ring:  0 0 0 3px rgba(16, 185, 129, 0.25);
+}

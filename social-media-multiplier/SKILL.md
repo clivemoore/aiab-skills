@@ -24,6 +24,43 @@ Read references/voice-guide.md
 - No emojis unless specifically requested
 - Anti-hustle culture — substance over polish, infrastructure over magic
 
+## Visuals & Design System
+
+Copy and visuals follow **different brand authorities** — do not mix them:
+
+- **Copy** → always Clive's personal voice (`references/voice-guide.md`), every platform, every post.
+- **Visuals** → depend on what the post is about:
+
+| Post is about… | Image/visual system | Load |
+|---|---|---|
+| Workilo product, workalongs, workflows, app UI | **Workilo Design System** (voxel + green) | `references/workilo-design-system.md` |
+| Clive's personal takes / thought leadership | **AIAB / Clive personal** (white + orange + silver, Futura) | `references/aiab-design-system.md` |
+| Agency in a Box | **AIAB / Clive personal** (same system) | `references/aiab-design-system.md` |
+
+Load the matching design system before writing any image brief:
+
+```
+Read references/workilo-design-system.md      # Workilo product visuals
+Read references/aiab-design-system.md          # Clive personal + AIAB visuals
+```
+
+**Two visual systems, kept separate (never cross them):**
+
+- **Workilo** — Workilo Green `#10B981` + orange `#FF8A00` / purple `#6D28D9` accents on
+  near-white `#F8FAFC`; **voxel / 3D-pixel** art; flat fields; **no gradients, no
+  photography, no emoji**; system font. Tokens: `assets/workilo-design-tokens.css`.
+- **AIAB / Clive personal** — white canvas, orange `#ED8B00` action, silver-grey `#AAB2B8`
+  neutrals, charcoal `#2C3234` ink; **Futura PT** geometric headings; editorial, photography
+  allowed, charcoal+orange duotone; **no voxel, no green, no emoji**. Tokens:
+  `assets/aiab-design-tokens.css`. (Note: AIAB orange ≈ Workilo orange — type, neutrals, and
+  imagery are what separate the brands, not the orange.)
+
+Use `assets/image-brief-template.md` to spec each image.
+
+Never bend the **copy**: it stays Clive's contrarian personal voice on every platform,
+regardless of which visual system the image uses. The Workilo *product* voice and the AIAB
+*site* voice are for visuals/terminology only, not for the post copy.
+
 ## Platform Specs
 
 ### 1. LINKEDIN
@@ -116,7 +153,13 @@ After all 7 platforms, add:
 **Calendar Day:** [Mission Monday / Transformation Tuesday / Wisdom Wednesday / BTS Thursday / Feature Friday / Human Weekend / Evergreen]
 **Video Recommended:** [YES — talking head / YES — screen recording / NO]
 **Image Needed:** [YES — describe / NO]
+**Visual System:** [Workilo voxel (workilo-design-system.md) / AIAB-Clive (aiab-design-system.md)]
 **Adobe Stock Keywords:** [3-5 search strings if image needed]
+
+> For any image, fill `assets/image-brief-template.md`. Workilo images follow
+> `references/workilo-design-system.md` (voxel, green, flat, no photography). Clive-personal
+> & AIAB images follow `references/aiab-design-system.md` (white, orange, silver, Futura,
+> photography OK). Never mix the two.
 
 ## Hard Rules
 
@@ -130,3 +173,17 @@ After all 7 platforms, add:
 - ALWAYS tag @workilo.bsky.social on Bluesky when relevant.
 - ALWAYS tag @jenwhitneyburton on Instagram for Dan Martell content.
 - ALWAYS include image/video recommendations per platform.
+- COPY is always Clive's personal voice; only VISUALS switch brand systems.
+- Workilo-branded visuals follow `references/workilo-design-system.md` — never gradients, photography, or emoji.
+
+## Validation
+
+Verify length/hashtag rules mechanically before delivering — don't eyeball it:
+
+```
+python3 scripts/validate_post.py --platform x --text "..."
+python3 scripts/validate_post.py --platform bluesky --file post.txt
+```
+
+Checks X ≤280, Bluesky ≤300 (flags thread), hashtag bans (Threads/Bluesky/eh.social),
+and LinkedIn body (no hashtags, no raw URLs). Exit 0 = pass, 1 = violation.

@@ -1,0 +1,66 @@
+/* Agency in a Box / Clive Moore personal — design tokens (light-first)
+ * Visual authority for Clive-personal and AIAB social visuals.
+ * Copy authority stays voice-guide.md. Do NOT use on Workilo product visuals.
+ * Colors + fonts extracted from live agencyinabox.ca (June 2026);
+ * light-canvas mapping, radius/spacing/shadow are designed conventions.
+ */
+
+:root {
+  /* Brand */
+  --aiab-orange:       #ED8B00; /* primary brand & action (CTAs, links, accents) */
+  --aiab-orange-hover: #C9760A; /* hover / pressed on light canvas */
+  --aiab-orange-soft:  #FFB769; /* warm light highlight / tint accent */
+  --aiab-tint:         #FFF3E3; /* warm orange wash surface */
+
+  /* Ink & neutrals */
+  --aiab-ink:          #2C3234; /* primary text — brand charcoal */
+  --aiab-ink-strong:   #15181A; /* near-black display headings */
+  --aiab-muted:        #5C6468; /* secondary text on white */
+  --aiab-silver:       #AAB2B8; /* named brand silver/grey — dividers, captions */
+  --aiab-silver-2:     #CED4DA; /* lighter silver */
+  --aiab-border:       #E2E5E7; /* 1px borders on white */
+  --aiab-surface:      #FFFFFF; /* cards / surfaces */
+  --aiab-surface-2:    #F5F6F7; /* subtle grey surface / banding */
+  --aiab-bg:           #FAFBFB; /* near-white page */
+
+  /* Type */
+  --aiab-font-display: "Futura PT", Futura, "Century Gothic", system-ui, sans-serif;
+  --aiab-font-sans:    system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  --aiab-font-mono:    ui-monospace, SFMono-Regular, "SF Mono", Menlo, monospace;
+  --aiab-body-line:    1.55;
+
+  /* Spacing — 4px base */
+  --aiab-space-1: 4px;
+  --aiab-space-2: 8px;
+  --aiab-space-3: 12px;
+  --aiab-space-4: 16px;
+  --aiab-space-5: 24px;
+  --aiab-space-6: 32px;
+  --aiab-space-7: 48px;
+  --aiab-space-8: 64px;
+  --aiab-container-max: 1200px;
+
+  /* Radius */
+  --aiab-radius-btn:  8px;
+  --aiab-radius-card: 12px;
+  --aiab-radius-pill: 9999px;
+
+  /* Elevation — soft, charcoal-tinted */
+  --aiab-shadow-rest:  0 1px 3px rgba(44, 50, 52, 0.08);
+  --aiab-shadow-raise: 0 8px 24px rgba(44, 50, 52, 0.12);
+}
+
+/* Optional dark variant — mirrors the live agencyinabox.ca site.
+ * Use when a post sits on a dark canvas instead of the default white.
+ */
+:root[data-aiab-theme="dark"] {
+  --aiab-surface:    #15181A;
+  --aiab-surface-2:  #1E2326;
+  --aiab-bg:         #15181A;
+  --aiab-ink:        #ECEFF1;
+  --aiab-ink-strong: #FFFFFF;
+  --aiab-muted:      #AAB2B8;
+  --aiab-border:     #2B3236;
+  --aiab-tint:       #241B0E;
+  /* orange tokens unchanged; on dark, lead with --aiab-orange-soft for text */
+}
