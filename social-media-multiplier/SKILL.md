@@ -1,5 +1,5 @@
 ---
-name: social-media-multiplier
+name: "social-media-multiplier"
 description: "Multiply a single content idea into ready-to-post versions for all 7 of Clive Moore's social media platforms (LinkedIn, Facebook, Instagram, Threads, X/Twitter, Bluesky, eh.social). Use this skill whenever the user asks to create social media content, multiply a post across platforms, write a LinkedIn post, draft social content, or mentions any social media platform by name. Also trigger when the user says 'post this', 'share this', 'turn this into social content', or references the 7-channel prompt. Trigger for ANY social media writing task."
 ---
 
@@ -24,42 +24,15 @@ Read references/voice-guide.md
 - No emojis unless specifically requested
 - Anti-hustle culture — substance over polish, infrastructure over magic
 
-## Visuals & Design System
+## Content Mix Guidance
 
-Copy and visuals follow **different brand authorities** — do not mix them:
+When planning content, aim for this weekly ratio:
+- 40% Niche Specific — your lane, your expertise, speaks to your one person
+- 25% Viral/Growth — broad, relatable, shareable, opens new rooms
+- 20% Authority — client wins, results, frameworks, receipts
+- 15% Personality — behind the scenes, dogs, the human part
 
-- **Copy** → always Clive's personal voice (`references/voice-guide.md`), every platform, every post.
-- **Visuals** → depend on what the post is about:
-
-| Post is about… | Image/visual system | Load |
-|---|---|---|
-| Workilo product, workalongs, workflows, app UI | **Workilo Design System** (voxel + green) | `references/workilo-design-system.md` |
-| Clive's personal takes / thought leadership | **AIAB / Clive personal** (white + orange + silver, Futura) | `references/aiab-design-system.md` |
-| Agency in a Box | **AIAB / Clive personal** (same system) | `references/aiab-design-system.md` |
-
-Load the matching design system before writing any image brief:
-
-```
-Read references/workilo-design-system.md      # Workilo product visuals
-Read references/aiab-design-system.md          # Clive personal + AIAB visuals
-```
-
-**Two visual systems, kept separate (never cross them):**
-
-- **Workilo** — Workilo Green `#10B981` + orange `#FF8A00` / purple `#6D28D9` accents on
-  near-white `#F8FAFC`; **voxel / 3D-pixel** art; flat fields; **no gradients, no
-  photography, no emoji**; system font. Tokens: `assets/workilo-design-tokens.css`.
-- **AIAB / Clive personal** — white canvas, orange `#ED8B00` action, silver-grey `#AAB2B8`
-  neutrals, charcoal `#2C3234` ink; **Futura PT** geometric headings; editorial, photography
-  allowed, charcoal+orange duotone; **no voxel, no green, no emoji**. Tokens:
-  `assets/aiab-design-tokens.css`. (Note: AIAB orange ≈ Workilo orange — type, neutrals, and
-  imagery are what separate the brands, not the orange.)
-
-Use `assets/image-brief-template.md` to spec each image.
-
-Never bend the **copy**: it stays Clive's contrarian personal voice on every platform,
-regardless of which visual system the image uses. The Workilo *product* voice and the AIAB
-*site* voice are for visuals/terminology only, not for the post copy.
+Posts that hit all four at once are "unicorns." Aim for those.
 
 ## Platform Specs
 
@@ -116,6 +89,11 @@ For each platform, output in this exact order:
 
 **INSTAGRAM:**
 [post text]
+
+*Trial Reel Hooks (for A/B testing):*
+- **Hook A:** [primary hook text overlay for first 3 seconds]
+- **Hook B:** [variant hook text overlay — different angle, same content]
+
 *First comment hashtags:* [hashtags]
 *Image:* [REQUIRED — describe]
 *Tag:* [@jenwhitneyburton if Dan Martell related]
@@ -144,22 +122,34 @@ For each platform, output in this exact order:
 
 ---
 
+## Trial Reel Strategy (Instagram)
+
+Every Instagram output includes two text-overlay hooks for A/B testing via Trial Reels:
+
+1. Write two hooks for the same content — different angle, different hook type
+2. User records one reel, duplicates it in editor, swaps the text overlay
+3. Posts both as Trial Reels (toggle "Trial" ON — shown only to non-followers)
+4. After 24-48h, check "Follows from this reel" in insights
+5. Winner gets promoted to main feed via "Share to everyone"
+
+Requirements: public professional account, 1K+ followers, 5 trials/day max.
+Without trial access: post both variants to main feed normally.
+
+**Repost rule:** Never post a great video only once. After 30 days, repost with
+a new hook. One great video = 10+ pieces of content.
+
 ## Content Metadata
 
 After all 7 platforms, add:
 
 **Content Type:** [Thought leadership / Behind the scenes / Vulnerability / Product demo / Newsletter promo / Evergreen]
+**Content Mix Category:** [Niche Specific (40%) / Viral-Growth (25%) / Authority (20%) / Personality (15%)]
 **Character Diamond:** [Superpower / Kryptonite / Behind the Scenes / Mission]
 **Calendar Day:** [Mission Monday / Transformation Tuesday / Wisdom Wednesday / BTS Thursday / Feature Friday / Human Weekend / Evergreen]
 **Video Recommended:** [YES — talking head / YES — screen recording / NO]
 **Image Needed:** [YES — describe / NO]
-**Visual System:** [Workilo voxel (workilo-design-system.md) / AIAB-Clive (aiab-design-system.md)]
 **Adobe Stock Keywords:** [3-5 search strings if image needed]
-
-> For any image, fill `assets/image-brief-template.md`. Workilo images follow
-> `references/workilo-design-system.md` (voxel, green, flat, no photography). Clive-personal
-> & AIAB images follow `references/aiab-design-system.md` (white, orange, silver, Futura,
-> photography OK). Never mix the two.
+**Repost Candidate:** [YES — flag for 30-day repost with new hook / NO]
 
 ## Hard Rules
 
@@ -173,17 +163,6 @@ After all 7 platforms, add:
 - ALWAYS tag @workilo.bsky.social on Bluesky when relevant.
 - ALWAYS tag @jenwhitneyburton on Instagram for Dan Martell content.
 - ALWAYS include image/video recommendations per platform.
-- COPY is always Clive's personal voice; only VISUALS switch brand systems.
-- Workilo-branded visuals follow `references/workilo-design-system.md` — never gradients, photography, or emoji.
-
-## Validation
-
-Verify length/hashtag rules mechanically before delivering — don't eyeball it:
-
-```
-python3 scripts/validate_post.py --platform x --text "..."
-python3 scripts/validate_post.py --platform bluesky --file post.txt
-```
-
-Checks X ≤280, Bluesky ≤300 (flags thread), hashtag bans (Threads/Bluesky/eh.social),
-and LinkedIn body (no hashtags, no raw URLs). Exit 0 = pass, 1 = violation.
+- ALWAYS include two trial reel hook variants for Instagram.
+- ALWAYS include Content Mix Category in metadata.
+- ALWAYS flag strong posts as Repost Candidates for 30-day recycling.

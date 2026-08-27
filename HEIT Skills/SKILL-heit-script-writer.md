@@ -1,13 +1,6 @@
 ---
-name: heit-script-writer
-description: >
-  Write short-form video scripts (Instagram Reels, TikTok, YouTube Shorts) using the
-  HEIT framework: Hook, Emotion, Insight, Takeaway. Use this skill when someone asks
-  to write a video script, reel script, talking-head script, or short-form content for
-  social media. Also use when someone has raw talking points, podcast clips, or interview
-  content they want turned into punchy 60-second videos. Starts by defining the ICP
-  (revenue level + team size), then generates 25 nuanced audience challenges before
-  writing. Outputs are teleprompter-ready, one thought per line, single CTA.
+name: "heit-script-writer"
+description: "Write short-form video scripts (Instagram Reels, TikTok, YouTube Shorts) using the HEIT framework: Hook, Emotion, Insight, Takeaway. Use this skill when someone asks to write a video script, reel script, talking-head script, or short-form content for social media. Also use when someone has raw talking points, podcast clips, or interview content they want turned into punchy 60-second videos. Starts by defining the ICP (revenue level + team size), then generates 25 nuanced audience challenges before writing. Outputs are teleprompter-ready, one thought per line, single CTA."
 ---
 
 # HEIT Script Writer
@@ -39,6 +32,16 @@ Make or break. Three types — pick one:
 Rule: If your content could apply to anyone, it connects with no one.
 Specificity is what creates connection. Specificity drives distribution.
 
+**Hook Formula** (Jen Gottlieb): Identify the curiosity gap → Make it specific (numbers, names, weird details) → Promise the payoff without giving it away → Cut every wasted word.
+
+**Proven Hook Starters:**
+- "It took me (x) years to learn this — and I'll teach it to you in (x) seconds"
+- "Here's what I'd tell you about (x) if I wasn't afraid to hurt your feelings"
+- "I wish someone told me this about (x) sooner"
+- "I hate to break it to you but ___ works, you're just doing it wrong"
+- "I did ___ so you don't have to. Here's exactly what happened"
+- "Hills I'll die on.."
+- "POV you're a ___ who wants to ___ and you find my page"
 
 ---
 
@@ -135,6 +138,19 @@ One thought per line. No paragraphs. Teleprompter-ready.
 Pacing: ~2 seconds per line at natural speaking speed.
 Target: 25-35 lines for a 60-second video.
 
+### Step 3b: Write trial reel hook variant
+For every script, write a SECOND hook (H section only) using a different hook type
+than the primary. Same E, I, T body — different opening.
+
+This is for Instagram Trial Reel A/B testing: post both versions as trials,
+the one that earns more follows gets promoted to main feed.
+
+Label them:
+- **Hook A** (primary) — [hook type]
+- **Hook B** (trial variant) — [different hook type]
+
+If the user explicitly says they only want one version, skip this step.
+
 ### Step 4: Check against HEIT before delivering
 - H: Does the first line stop the scroll?
 - E: Does it make the audience feel seen or understood?
@@ -153,9 +169,19 @@ Hook type: [Contrarian / Context / Intrigue]
 
 ---
 
+**Hook A** ([hook type]):
+
 H
 [hook line]
 [hook line 2 if needed]
+
+**Hook B** (trial variant — [different hook type]):
+
+H
+[alternate hook line]
+[alternate hook line 2 if needed]
+
+---
 
 E
 [emotion — 3-5 lines, make them feel seen]
@@ -166,6 +192,39 @@ I
 T
 [single takeaway — 1-2 lines]
 [CTA on its own line]
+
+---
+
+## Trial Reel Strategy
+
+Every script outputs two hooks by default. The workflow:
+
+1. Record the reel once with Hook A
+2. Duplicate the project in your editor (CapCut/Edits/Instagram)
+3. Replace ONLY the text overlay or first 5 seconds with Hook B
+4. Post both as Trial Reels (toggle "Trial" ON before posting)
+5. Trial reels show ONLY to non-followers — free A/B testing
+6. After 24-48h, check "Follows from this reel" in insights
+7. Winner gets promoted to main feed via "Share to everyone"
+8. Loser stays on trials, still collecting followers
+
+Requirements: public professional account, 1K+ followers, 5 trials/day max.
+Without trial access: post both variants to main feed normally.
+
+**Repost rule:** Never post a great video only once. After 30 days, repost
+with a new hook. One great video = 10+ pieces of content.
+
+---
+
+## Content Mix Guidance
+
+When planning which scripts to write, aim for this weekly ratio:
+- 40% Niche Specific — your lane, your expertise, speaks to your one person
+- 25% Viral/Growth — broad, relatable, shareable, opens new rooms
+- 20% Authority — client wins, results, frameworks, receipts
+- 15% Personality — behind the scenes, dogs, the human part
+
+Posts that hit all four at once are "unicorns." Aim for those.
 
 ---
 
