@@ -1,6 +1,6 @@
 ---
-name: "heit-script-writer"
-description: "Write short-form video scripts (Instagram Reels, TikTok, YouTube Shorts) using the HEIT framework: Hook, Emotion, Insight, Takeaway. Use this skill when someone asks to write a video script, reel script, talking-head script, or short-form content for social media. Also use when someone has raw talking points, podcast clips, or interview content they want turned into punchy 60-second videos. Starts by defining the ICP (revenue level + team size), then generates 25 nuanced audience challenges before writing. Outputs are teleprompter-ready, one thought per line, single CTA."
+name: heit-script-writer
+description: "Write short-form video scripts (Instagram Reels, TikTok, YouTube Shorts) using the HEIT framework: Hook, Emotion, Insight, Takeaway. Use this skill when someone asks to write a video script, reel script, talking-head script, or short-form content for social media. Also use when someone has raw talking points, podcast clips, or interview content they want turned into punchy 60-second videos. Starts by defining the ICP (revenue level + team size), then generates 25 nuanced audience challenges before writing. Outputs are teleprompter-ready, one thought per line, single CTA, with a mandatory ID + Receipt beat after the hook."
 ---
 
 # HEIT Script Writer
@@ -42,6 +42,41 @@ Specificity is what creates connection. Specificity drives distribution.
 - "I did ___ so you don't have to. Here's exactly what happened"
 - "Hills I'll die on.."
 - "POV you're a ___ who wants to ___ and you find my page"
+
+---
+
+### ID + RECEIPT (after the hook, before Emotion — MANDATORY, 5 seconds max)
+
+Every script carries this beat. It answers "why should I listen to you" before the
+viewer asks it. It NEVER goes before the hook — the hook earns the intro.
+
+Two parts, 2-3 lines total:
+
+**ID line (fixed):**
+> "I'm Clive. Twenty-five years running agencies."
+
+**Receipt line (rotates per script):** one checkable, specific fact that matches the
+script's topic. A receipt is something a stranger could verify or that costs something
+to say. A claim ("I know AI") is not a receipt. Pick from the Receipt Bank below, or
+surface the strongest proof already sitting in the script body and pull it forward.
+
+Text overlay for this beat: `Clive Moore · 25 yrs · 2 companies` (or the receipt itself).
+
+**Receipt Bank** (use only entries with real numbers; bracketed entries need Clive's
+figure before use — never invent one):
+- Runs two companies (GPT Studio, Workilo) on the stack being shown
+- Published our own AI security/workflow audit — scored 3.4 at the start, in public
+- Thirty-day public experiment: every result posted, including the failures
+- Four AI providers, Canadian hosting, human reads every word before it leaves
+- [X] clients in regulated Canadian industries
+- [X] documents / workflows processed under human review
+- [X] years as commercial photographer and audio engineer (for creative-workflow scripts)
+
+Rules:
+- Receipt must relate to the topic. Photography credential on a security-audit script is noise.
+- If the script runs long, cut Emotion lines. Never cut the receipt.
+- Never stack more than one receipt. One is proof. Three is a résumé.
+- Rotate receipts across the week so the feed doesn't repeat the same line.
 
 ---
 
@@ -136,11 +171,12 @@ Show the 25-challenge list. Ask user to select 1-5 to build into scripts.
 ### Step 3: Write the scripts
 One thought per line. No paragraphs. Teleprompter-ready.
 Pacing: ~2 seconds per line at natural speaking speed.
-Target: 25-35 lines for a 60-second video.
+Target: 25-35 lines for a 60-second video, including the ID + Receipt beat.
+Pick the receipt before writing the body so the body doesn't repeat it.
 
 ### Step 3b: Write trial reel hook variant
 For every script, write a SECOND hook (H section only) using a different hook type
-than the primary. Same E, I, T body — different opening.
+than the primary. Same ID + Receipt, E, I, T body — different opening.
 
 This is for Instagram Trial Reel A/B testing: post both versions as trials,
 the one that earns more follows gets promoted to main feed.
@@ -153,6 +189,7 @@ If the user explicitly says they only want one version, skip this step.
 
 ### Step 4: Check against HEIT before delivering
 - H: Does the first line stop the scroll?
+- ID + Receipt: Is it after the hook, under 5 seconds, one receipt, topic-matched, no bracketed placeholders left in?
 - E: Does it make the audience feel seen or understood?
 - I: Does it teach something they haven't heard articulated this way?
 - T: Is the takeaway a single clear shift or action?
@@ -166,31 +203,45 @@ If the user explicitly says they only want one version, skip this step.
 ICP: [one line — specific person, revenue, team size]
 Challenge selected: [from the 25-challenge list]
 Hook type: [Contrarian / Context / Intrigue]
+Receipt used: [which entry from the Receipt Bank]
 
 ---
 
 **Hook A** ([hook type]):
 
-H
+[HOOK - 3 sec]
+[TEXT OVERLAY: "..."]
 [hook line]
 [hook line 2 if needed]
 
 **Hook B** (trial variant — [different hook type]):
 
-H
+[HOOK - 3 sec]
+[TEXT OVERLAY: "..."]
 [alternate hook line]
 [alternate hook line 2 if needed]
 
 ---
 
-E
+[ID + RECEIPT - 5 sec]
+[TEXT OVERLAY: "Clive Moore · 25 yrs · 2 companies"]
+I'm Clive. Twenty-five years running agencies.
+[one receipt line, topic-matched]
+
+[EMOTION]
+[TEXT OVERLAY: "..."]
 [emotion — 3-5 lines, make them feel seen]
 
-I
+[INSIGHT]
+[TEXT OVERLAY: "..."]
 [insight — 2-4 lines, the nuanced truth they haven't heard this way]
 
-T
+[TAKEAWAY]
+[TEXT OVERLAY: "..."]
 [single takeaway — 1-2 lines]
+
+[CTA]
+[TEXT OVERLAY: "..."]
 [CTA on its own line]
 
 ---
@@ -238,6 +289,7 @@ Posts that hit all four at once are "unicorns." Aim for those.
 - End on the idea, not on you. CTA is functional, not enthusiastic.
 - Never more than one CTA per script.
 - Safe content doesn't spread. Be honest. Call things out.
+- The ID + Receipt beat is the only place the script is about Clive. Everywhere else it is about the viewer.
 
 ---
 
@@ -252,6 +304,10 @@ Scripts on file:
 - Data Sovereignty (intrigue hook, law firm analogy)
 - Workalongs vs. Agents (contrarian, 92/8 as takeaway)
 
-Note: These four scripts predate the homework steps being added to the skill.
-They were built from raw podcast content, not the 25-challenge prompt.
+Note: These four scripts predate the homework steps and the ID + Receipt beat.
 Future scripts should follow the full process above.
+
+Reference example of the ID + Receipt beat (2026-09-04, "thirty days of the boring version"):
+> I'm Clive. Twenty-five years running agencies.
+> I run two companies on the stack I'm about to show you,
+> and I published the audit it failed.
