@@ -7,6 +7,7 @@ mechanically instead of by eye:
 
   - X/Twitter:  <= 280 chars
   - Bluesky:    <= 300 chars per post (flags need-to-thread)
+  - eh.social:  <= 2000 chars (and warns when a long-form post came in short)
   - Threads / Bluesky / eh.social: NO hashtags
   - LinkedIn:   no hashtags in body, no raw URLs in body
 
@@ -21,7 +22,7 @@ import argparse
 import re
 import sys
 
-LIMITS = {"x": 280, "twitter": 280, "bluesky": 300}
+LIMITS = {"x": 280, "twitter": 280, "bluesky": 300, "eh.social": 2000, "ehsocial": 2000, "eh": 2000}
 NO_HASHTAG = {"threads", "bluesky", "eh.social", "ehsocial", "eh"}
 URL_RE = re.compile(r"https?://\S+")
 HASHTAG_RE = re.compile(r"(?:^|\s)#\w+")
@@ -37,6 +38,10 @@ def check(platform: str, text: str):
         violations.append(f"length {n} > {limit} hard limit")
     if platform in ("bluesky",) and n > 300:
         violations.append("exceeds 300 — split into a thread")
+    # eh.social is the long-form lowercase channel: a Threads-length post there
+    # is the short version pasted in, which is what this catches.
+    if platform in ("eh.social", "ehsocial", "eh") and n < 400:
+        violations.append(f"only {n} chars — eh.social takes up to 2000, write the full argument")
 
     if platform in NO_HASHTAG and HASHTAG_RE.search(text):
         violations.append("hashtags are not allowed on this platform")

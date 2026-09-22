@@ -68,7 +68,14 @@ Posts that hit all four at once are "unicorns." Aim for those.
 
 ### 7. EH.SOCIAL (ehnow.ca)
 - Lowercase conversational. Canadian Mastodon instance. NEVER hashtags.
-- Canadian context resonates well.
+- **Up to 2000 chars — the long one of the lowercase three. Use the room.**
+  Threads and Bluesky get the compressed version; eh.social gets the whole
+  argument: the setup, the specific example with real numbers, the turn, the
+  close. Aim for 900-1600 chars. Under 400 means the idea went out half-said.
+- Still lowercase, still conversational, still no hashtags — length changes,
+  register does not. Short paragraphs with blank lines between, not one block.
+- Canadian context resonates well. Name Canadian specifics when they are true
+  (PIPEDA, Toronto hosting, CAD pricing, provincial regulators).
 
 ## Output Format
 
@@ -118,7 +125,8 @@ For each platform, output in this exact order:
 ---
 
 **EH.SOCIAL:**
-[post text — lowercase]
+[post text — lowercase, long form: 900-1600 chars, 2000 max]
+*Character count:* [X/2000]
 
 ---
 
@@ -159,6 +167,8 @@ After all 7 platforms, add:
 - NEVER links in LinkedIn post body — "link in comments."
 - ALWAYS verify X/Twitter under 280 characters.
 - ALWAYS verify Bluesky under 300 characters per post. Thread if needed.
+- ALWAYS verify eh.social under 2000 characters — and never ship the Threads
+  or Bluesky text there. eh.social is the long version, not a copy of the short one.
 - ALWAYS lowercase for Threads, Bluesky, and eh.social.
 - ALWAYS tag @workilo.bsky.social on Bluesky when relevant.
 - ALWAYS tag @jenwhitneyburton on Instagram for Dan Martell content.
