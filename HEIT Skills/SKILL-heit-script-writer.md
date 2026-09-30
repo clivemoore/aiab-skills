@@ -11,7 +11,28 @@ description: "Write short-form video scripts (Instagram Reels, TikTok, YouTube S
 The HEIT framework turns any idea or raw talking point into a structured short-form
 video script that stops the scroll, builds authority, and drives revenue.
 
-Viral content isn't luck. It's structure.
+Viral content isn't luck. It's structure. But structure without Clive's voice is dead on camera.
+
+---
+
+## Step 0 — Load Clive's Voice (MANDATORY, before anything else)
+
+Source of truth: Notion page **"SOP - Clive Moore Complete Style Guide V2"**
+(https://app.notion.com/p/2f6464a276b781878824cf148e51b5c6). Fetch it at the start
+of every run. If Notion is unreachable, use the Voice Core section at the bottom of
+this file, which mirrors Parts 2, 11 and 12 of the guide.
+
+**Corrections that override the guide** (the guide is stale on these three points):
+1. **Title.** "Chief Creative Officer | UX Strategist | Brand Developer" is retired.
+   Current positioning: "AI Strategist · Builder · Founder of Agency in a Box."
+   Never lead with design; design history is proof, not the headline.
+2. **Workalongs.** There are TWELVE, not eight: Milo, Kiki, Dash, Sage, Rowan, Sunny,
+   Blaze, Quinn, Amber (Social Media Manager), Felix (Designer/Artist),
+   Alex (Ad Manager), Clive (Founder Mode).
+3. **Colour.** #484852 is wrong. Any overlay, card or graphic uses charcoal #2c3234
+   with orange #ed8b00 (see the aiab-graphics skill).
+
+Also fixed: Clive runs TWO businesses. Never write "three businesses" or "three products".
 
 ---
 
@@ -60,7 +81,7 @@ script's topic. A receipt is something a stranger could verify or that costs som
 to say. A claim ("I know AI") is not a receipt. Pick from the Receipt Bank below, or
 surface the strongest proof already sitting in the script body and pull it forward.
 
-Text overlay for this beat: `Clive Moore · 25 yrs · 2 companies` (or the receipt itself).
+Text overlay for this beat: `Clive Moore · 25 yrs · 2 businesses` (or the receipt itself).
 
 **Receipt Bank** (use only entries with real numbers; bracketed entries need Clive's
 figure before use — never invent one):
@@ -96,6 +117,23 @@ Without one of those — it won't spread.
 > "You hired your first operator thinking it would buy you back time.
 > Now you have a new bottleneck with a salary attached."
 
+**Clive's beat (MANDATORY, inside Emotion or Insight):** every script carries ONE
+of these, in first person, in his words:
+- a story he lived (pick from the Story Bank below), or
+- an opinion he'd defend in a room ("Hills I'll die on"), or
+- an analogy that makes the abstract physical (AI as a three-year-old who believes
+  in monsters, a brilliant intern with no judgment, judges in a courtroom).
+
+The analogy is his signature move. If a script has no analogy and no story, it is
+not finished.
+
+**Story Bank** (things Clive has stated; confirm wording with him before first use):
+- The security audit his own systems failed: 3.4/10 on his own rubric, fixed to 7.2, published both times
+- Two years (2024-2026) testing AI tools that he calls wasted, tool-chasing instead of shipping
+- 55 and building in public, pre-revenue on the products, no theatre
+- Built a SaaS platform nobody asked for (GPT Studio origin)
+- Pushing a lead magnet for a month that nobody took
+
 ---
 
 ### I — INSIGHT
@@ -122,7 +160,19 @@ That's what creates: conversations, opportunities, sales.
 > "Before your next hire, document the process they're walking into.
 > If you can't document it, you're not ready to delegate it."
 
+**Reflective close (Clive's pattern):** the last spoken line before the CTA is a
+question that hands the problem back to the viewer. Examples from his guide:
+"So what are we writing on it?" / "Who decides?" / "Your future self already stopped
+playing that game."
+
+**Who I help (MANDATORY, one line, before the CTA):**
+> "I help agencies and small businesses put AI where it belongs."
+(Adjust the verb to the topic; never drop the two audiences.)
+
 Always close with the CTA on its own line.
+
+**CTA default:** "Link in bio." Clive has NO comment-to-DM automation. Never write
+"Comment [WORD]" CTAs unless he confirms it is set up.
 
 
 ---
@@ -136,6 +186,10 @@ from the April 15 Elite session. Do not skip them.
 Ask the user to confirm:
 - ICP revenue level (e.g. $250K, $500K, $1M+)
 - ICP team size (e.g. solo, 1-5 employees, 5-15 employees)
+
+Clive has two ICPs; every script targets ONE:
+- **Small agencies (3-20 people)**, his sweet spot, content development / Workilo
+- **Small businesses and owner-led professional firms**, AI implementation, compliance, data residency
 
 Name the specific person. Not a demographic. A human.
 Example: *Fred runs a $600K service business with 3 employees. He's the bottleneck
@@ -168,7 +222,13 @@ Show the 25-challenge list. Ask user to select 1-5 to build into scripts.
 - Process/framework — usually Context
 - Opinion/positioning — usually Contrarian
 
-### Step 3: Write the scripts
+### Step 3: Start from Clive's words, not a topic
+If Clive gives a voice memo, transcript, rant or rough notes, KEEP HIS PHRASING.
+Restructure it into HEIT; do not rewrite it into generic copy. Only cut and reorder.
+If he gives only a topic, write the draft, then flag every line that doesn't sound
+like something he'd say out loud.
+
+### Step 3a: Write the scripts
 One thought per line. No paragraphs. Teleprompter-ready.
 Pacing: ~2 seconds per line at natural speaking speed.
 Target: 25-35 lines for a 60-second video, including the ID + Receipt beat.
@@ -187,13 +247,23 @@ Label them:
 
 If the user explicitly says they only want one version, skip this step.
 
+### Step 3c: Write the beat sheet (always)
+Clive records better talking than reading. Under every script, add a 5-bullet beat
+sheet he can talk through without a teleprompter: hook line verbatim, receipt,
+story/analogy, the one insight, the closing question. Lines he must say word for
+word are in quotes; everything else is a prompt.
+
 ### Step 4: Check against HEIT before delivering
 - H: Does the first line stop the scroll?
 - ID + Receipt: Is it after the hook, under 5 seconds, one receipt, topic-matched, no bracketed placeholders left in?
 - E: Does it make the audience feel seen or understood?
 - I: Does it teach something they haven't heard articulated this way?
 - T: Is the takeaway a single clear shift or action?
-- CTA: Is it on its own line, clean, friction-free?
+- Clive: Is there one first-person story, opinion or analogy? Would he say every line out loud?
+- Close: Does the last spoken line hand the problem back as a question?
+- Who I help: Is the agencies + small businesses line there?
+- CTA: Is it on its own line, clean, friction-free, and "link in bio" unless told otherwise?
+- Facts: two businesses, twelve Workalongs, no retired titles?
 
 
 ---
@@ -224,7 +294,7 @@ Receipt used: [which entry from the Receipt Bank]
 ---
 
 [ID + RECEIPT - 5 sec]
-[TEXT OVERLAY: "Clive Moore · 25 yrs · 2 companies"]
+[TEXT OVERLAY: "Clive Moore · 25 yrs · 2 businesses"]
 I'm Clive. Twenty-five years running agencies.
 [one receipt line, topic-matched]
 
@@ -239,10 +309,19 @@ I'm Clive. Twenty-five years running agencies.
 [TAKEAWAY]
 [TEXT OVERLAY: "..."]
 [single takeaway — 1-2 lines]
+[reflective close — one question that hands the problem back]
+[who I help — one line]
 
 [CTA]
 [TEXT OVERLAY: "..."]
 [CTA on its own line]
+
+**Beat sheet** (talk it, don't read it):
+- "[hook, verbatim]"
+- [receipt]
+- [story / opinion / analogy prompt]
+- [the one insight]
+- "[closing question, verbatim]"
 
 ---
 
@@ -281,15 +360,22 @@ Posts that hit all four at once are "unicorns." Aim for those.
 
 ## Voice Rules (Clive Moore)
 
-- Short declaratives for impact. No padding.
-- Contrarian edge — lead with what others aren't saying.
-- Goal: say what your audience is already experiencing, better than they can articulate it.
-- No: synergy, leverage (as verb), revolutionary, game-changing.
-- Yes: infrastructure, human-in-the-loop, workflow-first, speed without surveillance.
-- End on the idea, not on you. CTA is functional, not enthusiastic.
-- Never more than one CTA per script.
+Pulled from the Style Guide V2. The guide wins on anything not listed here, except
+the three corrections in Step 0.
+
+- Open by challenging the premise: "Wrong question." / "Nobody wants to talk about..." / "Everyone's asking [X]. That misses the point."
+- Strategic variety: short declaratives for impact, then a longer line that builds the argument. Fragments on purpose, never by accident.
+- Sophisticated but accessible. A word like "credulity" or "evolutionary baggage" is fine if the context makes it clear. Never obscure to sound smart.
+- Ground every abstract idea in an analogy.
+- Warm and human: first person, direct address. Authority from insight, not from talking down.
+- Thinks out loud. A script can show him working an idea out, not only delivering the answer.
+- Quietly confident. Receipts, not bragging.
+- Close with a question that hands the problem back.
+- Power phrases (use, don't overuse): "Infrastructure over magic." "The boring stuff. The stuff that works." "Speed without surveillance." "Human-in-the-loop." "Workflow-first."
+- Never: synergy, leverage (as verb), disrupt, revolutionary, game-changing, performative resonance, generic LinkedIn polish, trite callbacks, excessive emoji.
+- One CTA per script. Functional, not enthusiastic.
 - Safe content doesn't spread. Be honest. Call things out.
-- The ID + Receipt beat is the only place the script is about Clive. Everywhere else it is about the viewer.
+- The script is about the viewer's problem, told through Clive's experience. He appears in the ID + Receipt beat AND in one story/opinion/analogy beat.
 
 ---
 
@@ -311,3 +397,23 @@ Reference example of the ID + Receipt beat (2026-09-04, "thirty days of the bori
 > I'm Clive. Twenty-five years running agencies.
 > I run two companies on the stack I'm about to show you,
 > and I published the audit it failed.
+
+---
+
+## Voice Core (fallback if the Notion guide can't be fetched)
+
+Clive is an analytical challenger: he takes complex problems apart and shows people
+what they're missing, then connects it back to a practical consequence. Contrarian
+without being dismissive. Philosophical curiosity (AI ethics, surveillance capitalism,
+consciousness) sits under the practical work; it can surface in a line, never as a lecture.
+
+Content philosophy:
+- The counter-model: AI that keeps humans in command, not the attention economy.
+- Infrastructure over magic: the gains come from orchestration, memory, context and
+  workflow design around existing models, not the next model release.
+- Dan Martell's 92/8: AI does 92%; the 8% is the artist part, the you part.
+
+Hooks that work: "Wrong question." / "Nobody wants to talk about..." /
+"Everyone's asking [X]. That misses the point." / "We're obsessed with [Y]. Here's why that's backward."
+Closes that work: "So what are we writing on it?" / "Who decides?" /
+"Your future self already stopped playing that game."

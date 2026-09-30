@@ -23,6 +23,22 @@ and drives revenue.
 
 ---
 
+## Step 0 — Load Your Voice (before anything else)
+
+Structure without a voice is dead on camera. Before writing, load the creator's own
+voice or style guide (paste it into the session, or point to the doc). Pull out:
+- their signature hooks and closing lines, verbatim
+- the analogies they naturally reach for
+- words they use and words they ban
+- stories they have actually lived
+
+If no guide exists, ask for three things: three posts that performed, one story they
+tell often, and five words they'd never use. If the guide contradicts current facts
+(an old title, an outdated product list, old brand colours), current facts win.
+Note the correction for the creator.
+
+---
+
 ## The Framework
 
 ### H — HOOK (first 3 seconds)
@@ -58,6 +74,10 @@ Without one of those, it won't spread.
 > "You hired your first operator thinking it would buy back your time.
 > Now you have a new bottleneck — with a salary attached."
 
+**The creator's beat (required, inside Emotion or Insight):** one first-person story
+they lived, an opinion they'd defend in a room, or an analogy that makes the abstract
+physical. If a script has no story and no analogy, it isn't finished.
+
 ---
 
 ### I — INSIGHT
@@ -83,7 +103,11 @@ That's what creates: conversations, opportunities, sales.
 > "Before your next hire, document the process they're walking into.
 > If you can't document it, you're not ready to delegate it."
 
-Always close with your CTA on its own line.
+**Reflective close:** the last spoken line before the CTA can be a question that
+hands the problem back to the viewer, in the creator's own style.
+
+Always close with your CTA on its own line. Only use "Comment [WORD]" CTAs if
+comment-to-DM automation is actually set up; otherwise use "link in bio."
 
 
 ---
@@ -131,11 +155,20 @@ No paragraphs. Teleprompter-ready.
 ~2 seconds per line at natural speaking pace.
 Target: 25-35 lines for 60 seconds.
 
+### Step 4b: Write a beat sheet
+Most people record better talking than reading. Under the script, add 5 bullets to
+talk through: hook (verbatim), receipt, story/analogy, the one insight, the closing
+question (verbatim).
+
+If the creator gave a voice memo, transcript or rough notes, keep their phrasing.
+Restructure into HEIT; don't rewrite it into generic copy.
+
 ### Step 5: Check HEIT before you share
 - H: Does the first line stop the scroll?
 - E: Does it make your audience feel seen?
 - I: Does it teach something nuanced they haven't heard this way?
 - T: Is the takeaway one clear shift or action?
+- Voice: Is there one first-person story, opinion or analogy? Would the creator say every line out loud?
 - CTA: Is it on its own line, clean, no friction?
 
 
@@ -161,7 +194,15 @@ I
 
 T
 [single takeaway — 1-2 lines]
+[closing question, optional]
 [CTA on its own line]
+
+Beat sheet
+- "[hook, verbatim]"
+- [receipt]
+- [story / opinion / analogy]
+- [the one insight]
+- "[closing question, verbatim]"
 
 ---
 
@@ -173,6 +214,7 @@ T
 - If it's safe, it won't spread. Be honest. Call things out.
 - One CTA per script. On its own line. No enthusiasm required.
 - Generic gets ignored. Nuanced gets shared.
+- The script is about the viewer's problem, told through the creator's experience.
 
 ---
 
