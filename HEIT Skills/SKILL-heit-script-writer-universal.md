@@ -33,7 +33,7 @@ voice or style guide (paste it into the session, or point to the doc). Pull out:
 - stories they have actually lived
 
 If no guide exists, ask for three things: three posts that performed, one story they
-tell often, and five words they'd never use. If the guide contradicts current facts
+tell often, and five words they'd never use. If the creator has more than one version of their guide, use the newest and treat anything it retired as banned. If the guide contradicts current facts
 (an old title, an outdated product list, old brand colours), current facts win.
 Note the correction for the creator.
 

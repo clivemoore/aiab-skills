@@ -17,12 +17,21 @@ Viral content isn't luck. It's structure. But structure without Clive's voice is
 
 ## Step 0 — Load Clive's Voice (MANDATORY, before anything else)
 
-Source of truth: Notion page **"SOP - Clive Moore Complete Style Guide V2"**
-(https://app.notion.com/p/2f6464a276b781878824cf148e51b5c6). Fetch it at the start
-of every run. If Notion is unreachable, use the Voice Core section at the bottom of
-this file, which mirrors Parts 2, 11 and 12 of the guide.
+Source of truth: **Style Guide V2.1** (2026-09-08), in the knowledge base at
+`~/Documents/claude-project-knowledge-system/clive-moore_knowledge/`, mirrored in the
+Workilo repo at `docs/brand/clive-personal/style-guide.md` and loaded in Workilo as the
+voice guide "Clive Moore Style Guide V2.1". Read it at the start of every run. If none
+of those is reachable, use the Voice Core section at the bottom of this file.
 
-**Corrections that override the guide** (the guide is stale on these three points):
+The Notion page "SOP - Clive Moore Complete Style Guide V2" is OUT OF DATE. Never use
+it as the source. Where it differs from V2.1, V2.1 wins.
+
+**V2.1 hard bans (check every line of output):**
+- No em dashes, anywhere. Use a colon, a comma or a full stop.
+- Never open with "Wrong question." or "Right question." (retired).
+- Never call Workilo's assistants "agents". They are "workalongs".
+
+**Also stale in older guides and docs:**
 1. **Title.** "Chief Creative Officer | UX Strategist | Brand Developer" is retired.
    Current positioning: "AI Strategist · Builder · Founder of Agency in a Box."
    Never lead with design; design history is proof, not the headline.
@@ -32,7 +41,7 @@ this file, which mirrors Parts 2, 11 and 12 of the guide.
 3. **Colour.** #484852 is wrong. Any overlay, card or graphic uses charcoal #2c3234
    with orange #ed8b00 (see the aiab-graphics skill).
 
-Also fixed: Clive runs TWO businesses. Never write "three businesses" or "three products".
+4. Clive runs TWO businesses. Never write "three businesses" or "three products".
 
 ---
 
@@ -86,7 +95,8 @@ Text overlay for this beat: `Clive Moore · 25 yrs · 2 businesses` (or the rece
 **Receipt Bank** (use only entries with real numbers; bracketed entries need Clive's
 figure before use — never invent one):
 - Runs two companies (GPT Studio, Workilo) on the stack being shown
-- Published our own AI security/workflow audit — scored 3.4 at the start, in public
+- Twelve workalongs running two businesses
+- Published our own AI security/workflow audit: scored 3.4 at the start, in public
 - Thirty-day public experiment: every result posted, including the failures
 - Four AI providers, Canadian hosting, human reads every word before it leaves
 - [X] clients in regulated Canadian industries
@@ -263,7 +273,8 @@ word are in quotes; everything else is a prompt.
 - Close: Does the last spoken line hand the problem back as a question?
 - Who I help: Is the agencies + small businesses line there?
 - CTA: Is it on its own line, clean, friction-free, and "link in bio" unless told otherwise?
-- Facts: two businesses, twelve Workalongs, no retired titles?
+- Facts: two businesses, twelve workalongs, no retired titles?
+- V2.1 bans: zero em dashes, no "Wrong question" opener, no "agents" for workalongs?
 
 
 ---
@@ -360,10 +371,9 @@ Posts that hit all four at once are "unicorns." Aim for those.
 
 ## Voice Rules (Clive Moore)
 
-Pulled from the Style Guide V2. The guide wins on anything not listed here, except
-the three corrections in Step 0.
+Pulled from Style Guide V2.1. The guide wins on anything not listed here.
 
-- Open by challenging the premise: "Wrong question." / "Nobody wants to talk about..." / "Everyone's asking [X]. That misses the point."
+- Open by challenging the premise: "Nobody wants to talk about..." / "Everyone's asking [X]. That misses the point." / "We're obsessed with [Y]. Here's why that's backward." / a flat, dated, uncomfortable fact with a real number. Never "Wrong question." (retired).
 - Strategic variety: short declaratives for impact, then a longer line that builds the argument. Fragments on purpose, never by accident.
 - Sophisticated but accessible. A word like "credulity" or "evolutionary baggage" is fine if the context makes it clear. Never obscure to sound smart.
 - Ground every abstract idea in an analogy.
@@ -372,7 +382,7 @@ the three corrections in Step 0.
 - Quietly confident. Receipts, not bragging.
 - Close with a question that hands the problem back.
 - Power phrases (use, don't overuse): "Infrastructure over magic." "The boring stuff. The stuff that works." "Speed without surveillance." "Human-in-the-loop." "Workflow-first."
-- Never: synergy, leverage (as verb), disrupt, revolutionary, game-changing, performative resonance, generic LinkedIn polish, trite callbacks, excessive emoji.
+- Never: em dashes, "Wrong question" lead-ins, "agents" for workalongs, synergy, leverage (as verb), disrupt, revolutionary, game-changing, performative resonance, fabricated empathy, generic LinkedIn polish, trite callbacks, excessive emoji.
 - One CTA per script. Functional, not enthusiastic.
 - Safe content doesn't spread. Be honest. Call things out.
 - The script is about the viewer's problem, told through Clive's experience. He appears in the ID + Receipt beat AND in one story/opinion/analogy beat.
@@ -400,7 +410,7 @@ Reference example of the ID + Receipt beat (2026-09-04, "thirty days of the bori
 
 ---
 
-## Voice Core (fallback if the Notion guide can't be fetched)
+## Voice Core (fallback if Style Guide V2.1 can't be read)
 
 Clive is an analytical challenger: he takes complex problems apart and shows people
 what they're missing, then connects it back to a practical consequence. Contrarian
@@ -413,7 +423,8 @@ Content philosophy:
   workflow design around existing models, not the next model release.
 - Dan Martell's 92/8: AI does 92%; the 8% is the artist part, the you part.
 
-Hooks that work: "Wrong question." / "Nobody wants to talk about..." /
-"Everyone's asking [X]. That misses the point." / "We're obsessed with [Y]. Here's why that's backward."
+Hooks that work: "Nobody wants to talk about..." /
+"Everyone's asking [X]. That misses the point." / "We're obsessed with [Y]. Here's why that's backward." /
+a flat, dated, uncomfortable fact with a real number. Retired: "Wrong question."
 Closes that work: "So what are we writing on it?" / "Who decides?" /
 "Your future self already stopped playing that game."
